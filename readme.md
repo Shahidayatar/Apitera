@@ -1,4 +1,16 @@
-Assumign that we will test this application using github user "Shahidayatar" 
+# Step 1: Clone the repository
+git clone https://github.com/Shahidayatar/Apitera.git
+
+# Step 2: Navigate to the project directory
+cd Atipera
+
+# Step 3: Build the project
+mvn clean install
+
+# Step 4: Run the project
+mvn spring-boot:run
+
+Assuming that we will test this application using github user "Shahidayatar" 
 and running on port 808
 
 1.Test the Endpoint to Get Non-Fork Repositories
